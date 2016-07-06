@@ -92,6 +92,27 @@ li a:focus {
 }
 
 
+
+#main{
+	position:relative;
+}
+div#first{
+background-image: url('../images/grillemain.jpg');
+background-size: cover;
+opacity:.5;
+width:100%;
+height:100%;
+}
+div#second{
+width:100%;
+height:100%;
+position:absolute;
+top: 0;
+left:0;
+}
+
 /* demo styles */
-body { margin-top: 3em; background: #eee; color: #555; font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+
+
+		
 p, p a { font-size: 12px;text-align: center; color: #888; }
