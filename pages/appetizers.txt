@@ -1,0 +1,18 @@
+lunch appetizers;Shrimp Cocktail;13.50;Jumbo Prawns in a tasty cocktail sauce
+lunch appetizers;Prime Tickler;11;6 oz. of tender chunks of prime rib with creamy horseradish sauce
+lunch appetizers;Baked Brie;13.50;Served with seasonal fruit, crackers, & apple pecan vinaigrette
+lunch appetizers;Quesadilla;11;Roasted vegetables, mushrooms, peppers, onions, provolone & cheddar cheese on a chipotle tortilla with salsa, avocado, & sour cream
+
+dinner appetizers;Shrimp Cocktail;13.50;Jumbo prawns in a tasty cocktail sauce
+dinner appetizers;Mushrooms Rockefeller;9.50;Mushrooms stuffed with spinach, bacon, parmesan, garlic, & sauteed in olive oil and sherry wine. Topped with a bearnaise sauce
+dinner appetizers;Jalapenos Ravioli;8.75;Stuffed with cream cheese, deep fried, and served with marinara sauce
+dinner appetizers;Baked Brie;13.50;Served with seasonal fruit, crackers, and apple pecan vinaigrette
+dinner appetizers;Prime Tickler;11;6 oz. of tender chunks of prime rib and served with creamy horseradish sauce
+
+
+
+
+
+
+
+

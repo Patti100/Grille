@@ -4,6 +4,33 @@
   <meta charset="UTF-8">
   <title>A Pen by Patricia Rittberg</title>
   <link rel="stylesheet" href="css/style.css">
+	<script src="js/menuparser.js"></script>
+  
+  <script >
+	function init() {
+		//var reader = menuparser();
+		//reader.initialize();
+		//reader.parsemenu("appetizers","lunch appetizers");
+		
+	}
+	
+	var openFile = function(event) {
+        var input = event.target;
+
+        var reader = new FileReader();
+        reader.onload = function(){
+          var text = reader.result;
+          var node = document.getElementById('output');
+          node.innerText = text;
+          console.log(reader.result.substring(0, 200));
+        };
+        reader.readAsText(input.files[0]);
+      };
+	
+	
+	window.onload = init;
+  </script>
+  
 </head>
 
 <body>
@@ -33,6 +60,9 @@
 	
 				<script src="js/index.js"></script>
 			</div>
+			
+			<input type='file' accept='text/plain' onchange='openFile(event)'><br>
+			
 		</div>
 </body>
 
