@@ -95,10 +95,13 @@ li a:focus {
 	position:relative;
 }
 div#first{
-background-image: url('../images/grille_edited.jpg');
-background-size: cover;
-background-position: center;
-opacity: 100%;
+
+background-image: url('../images/IMG_20160723_111454.jpg');
+background-size: 100% 100%;
+background-position: left;
+background-repeat: no-repeat;
+background-color = #FFFFFF;
+opacity:0.4;
 font-size:12px;
 width:100%;
 height:100%;
