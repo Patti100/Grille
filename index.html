@@ -1,4 +1,4 @@
-<html>
+<html >
 
 <head>
   <meta charset="UTF-8">
@@ -12,6 +12,8 @@
   
 	function init() {
 		menuBar =  document.getElementById("toggle");
+		setvisibilityHidden();
+		setWelcomeScreen("");
 		loadJsonFile();
 	}
 	
@@ -31,14 +33,28 @@
 
 		}
 
-		function setWelcomeScreen(Value){
+		function setvisibilityHidden(){
+				document.getElementById("thebody").style.visibility="hidden";
+				document.getElementById("welcome").style.visibility="hidden";
 		
+		}
+		
+		function setWelcomeScreen(Value){
+			setvisibilityHidden();
+			document.getElementById("welcome").style.visibility="visible";
+
+			var menudiv =  document.getElementById("second");
+			var bodydiv =  document.getElementById("thebody");
+			document.getElementById("welcome").style.top = menudiv.style.height + 150;
+	
+			
 			menuBar.className = '"span:before"';
 		}
 		
 		//set the current menu option and collapse the menu again
 		function setmenuValue(menuValue){
 			currentMenuValue = menuValue;
+			setvisibilityHidden();
 			
 			loadmenu(menuValue);
 			
@@ -75,20 +91,20 @@
 			  }
 			  
 			  menuHTML += "</table>"
-			  					
+			
+			document.getElementById("thebody").style.visibility="visible";
+			var menudiv =  document.getElementById("second");
+			
 			var bodydiv =  document.getElementById("thebody");
+			bodydiv.style.top = menudiv.style.height + 150;
 			bodydiv.innerHTML = menuHTML;
 		}
 	
 	</script>
 </head>
 
-<body>
-	<div id="main">
-		
-  
-		
-			<div id="first"><br/>
+<body id="body">
+			<div id="main" >
 			</div>
 			<div id="second">
 				<div id="header">
@@ -111,24 +127,25 @@
 								  </ul>
 								</div>
 							</div>
+							<script src="js/index.js"></script>
 				</div>
-				
-				
-
-				
 			</div>
 			<div id="thebody">
-					
-					
-					
-				</div>
-			
-
-	
-				<script src="js/index.js"></script>
 			</div>
+
 			
-		</div>
+			<div id="welcome" style="visibility:hidden">
+				<h1 class=Header id="welcome">Welcome</h1>
+				<h2 class=Header>Intimate Dining in a Cozy Cottage</h2>
+				<h3 class=Header> Our lovely cottage restaurant was built in the 1920's by Mr. Robinson for his wife, and remained their residence until the 1960's. The cottage then became the residence of an artist for several years and then an antique store. In the early 80's the cottage was transformed into a deli, and then in 1989 we proudly opened "The Julian Grille."</h3>
+				<h4 class=Header><br>Dog friendly patio dinning
+					<br>Lunch and Dinner Sunday-Thursday from 11am to 8pm
+					<br>Lunch and Dinner Friday-Saturday from 11am to 9pm
+				  <br> Prices and hours subject to change
+					<br>760-765-0173
+				  </h4>
+			</div>	
+
 </body>
 
 <html>
