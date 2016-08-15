@@ -1,5 +1,5 @@
-@import url(//fonts.googleapis.com/css?family=Ubuntu+Mono);
-@import url(//fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 html,
 body{
     height: 100%;
@@ -72,7 +72,141 @@ footer {
 }
 
 
+.paragraph_style {
+    color: rgb(125, 131, 137);
+    font-family: 'Palatino-Bold', 'Palatino', serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing:     0.16em;
+    line-height: 19px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: uppercase;
+}
+.paragraph_style_1 {
+    color: rgb(33, 38, 0);
+    font-family: 'Papyrus';
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.paragraph_style_2 {
+    color: rgb(33, 38, 0);
+    font-family: 'Papyrus';
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 23px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.style_SkipStroke_2 {
+    background: transparent;
+    opacity: 1.00;
+}
+.paragraph_style_3 {
+    color: rgb(186, 122, 76);
+    font-family: 'Palatino-Bold', 'Palatino', serif;
+    font-size: 24px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+
 #viewbotton{
     margin-bottom: 0em;
     text-align: center;
+}
+
+#content_container_parent{
+   position: relative;
+   top: 0;
+}
+
+
+#content_container{
+   position: relative;
+   top: 0;
+}
+
+#welcomediv {
+   position: absolute;
+   top: 0;
+}
+
+#lunchdiv {
+   position: absolute;
+   top: 0;
+}
+
+#dinnerdiv {
+   position: absolute;
+   top: 0;
+}
+
+#drinksdiv {
+   position: absolute;
+   top: 0;
+}
+
+#gallery{
+   position: absolute;
+   top: 0;
+}
+
+#location {
+   position: absolute;
+   top: 0;
 }

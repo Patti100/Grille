@@ -1,0 +1,476 @@
+{
+	"menuitems": [{
+			"category": "lunch",
+			"subcategory": "appetizers",
+			"name": "Shrimp Cocktail",
+			"portion": {
+							"name": "",
+							"price": "13.50"
+						},
+			"description": "Jumbo Prawns in a tasty cocktail sauce"
+		}, {
+			"category": "lunch",
+			"subcategory": "appetizers",
+			"name": "Prime Tickler",
+			"price": "11.00",
+			"description": "6 oz. of tender chunks of prime rib with creamy horseradish sauce"
+		}, {
+			"category": "lunch",
+			"subcategory": "appetizers",
+			"name": "Baked Brie",
+			"price": "13.50",
+			"description": "Served with seasonal fruit, crackers, & apple pecan vinaigrette"
+		}, {
+			"category": "lunch",
+			"subcategory": "appetizers",
+			"name": "Quesadilla",
+			"price": "11.00",
+			"description": "Roasted vegetables, mushrooms, peppers, onions, provolone & cheddar cheese on a chipotle tortilla with salsa, avocado, & sour cream"
+		}
+
+		, {
+			"category": "dinner",
+			"subcategory": "appetizers",
+			"name": "Shrimp Cocktail",
+			"price": "13.50",
+			"description": "Jumbo Prawns in a tasty cocktail sauce"
+		}, {
+			"category": "dinner",
+			"subcategory": "appetizers",
+			"name": "Mushrooms Rockefeller",
+			"price": "9.50",
+			"description": "Mushrooms stuffed with spinach, bacon, parmesan, garlic, & sauteed in olive oil and sherry wine. Topped with a bearnaise sauce"
+		}, {
+			"category": "dinner",
+			"subcategory": "appetizers",
+			"name": "Jalapenos Ravioli",
+			"price": "8.75",
+			"description": "Stuffed with cream cheese, deep fried, and served with marinara sauce"
+		}, {
+			"category": "dinner",
+			"subcategory": "appetizers",
+			"name": "Baked Brie",
+			"price": "13.50",
+			"description": "Served with seasonal fruit, crackers, and apple pecan vinaigrette"
+		}, {
+			"category": "dinner",
+			"subcategory": "appetizers",
+			"name": "Prime Tickler",
+			"price": "11.00",
+			"description": "6 oz. of tender chunks of prime rib and served with creamy horseradish sauce"
+		}
+
+
+		, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Soups",
+			"name": "Soup of the day",
+			"portion": {
+				"name": "Cup",
+				"price": "5.50",
+				"name": "Bowl",
+				"price": "6.50"
+			}
+
+			,
+			"description": "Inspired by the season gluten free"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Soups",
+			"name": "Soup & Salad",
+			"portion": {
+				"name": "",
+				"price": "11.00"
+			},
+			"description": "A bowl of homemade soup with a mixed garden salad",
+			"extra description": {
+				"description": "Upgrade to Sweet Walnut Salad",
+				"price": "13.00"
+			}
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Soups",
+			"name": "Half Sandwich with SOUP or SALAD",
+			"portion": {
+				"name": "",
+				"price": "11.50"
+			},
+			"description": "Your choice of roast beef & cheddar, ham & cheddar, tuna salad & Swiss, or turkey & provolone. Your choice of bread",
+			"extra description": {
+				"description": "MAKE IT A WHOLE SANDWICH",
+				"price": "14.00"
+			}
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Salads",
+			"name": "Sweet Walnut Salad",
+			"portion": {
+				"name": "",
+				"price": "12.00"
+			},
+			"description": "Mixed field greens with sun-dried cranberries, caramelized walnuts, carrots, & red cabbage"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Salads",
+			"name": "Caesar Salad",
+			"portion": {
+				"name": "",
+				"price": "10.00"
+			},
+			"description": "Romaine lettuce, croutons, parmesan cheese, & Caesar dressing"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Salads",
+			"name": "Spinach Salad",
+			"portion": {
+				"name": "",
+				"price": "10.00"
+			},
+			"description": "Spinach with caramelized walnuts, sun dried cranberries, & red onions"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Salads",
+			"name": "Chicken Julian Salad",
+			"portion": {
+				"name": "",
+				"price": "16.00"
+			},
+			"description": "Flame-broiled chicken breast on a bed of field greens with sliced apples, tomatoes, carrots, cucumbers, & red cabbage"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Salads",
+			"name": "Shrimp Salad",
+			"portion": {
+				"name": "",
+				"price": "15.00"
+			},
+			"description": "Prawns on the flat grill with tomatoes, olives, carrots, red cabbage, & red peppers over a bed of field greens"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Salads",
+			"name": "Salmon Salad",
+			"portion": {
+				"name": "",
+				"price": "16.00"
+			},
+			"description": "Salmon over a bed of field greens with olives, roasted peppers, tomatoes, red onions, red cabbage, carrots, & cucumbers"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Salads",
+			"name": "Tuna Salad",
+			"portion": {
+				"name": "",
+				"price": "14.50"
+			},
+			"description": "Tuna salad over a bed of field greens, avocado, tomatoes, cucumbers, carrots, and red cabbage"
+		}
+
+
+		, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Hot and Open Faced",
+			"name": "The Wrangler",
+			"portion": {
+				"name": "",
+				"price": "15.00"
+			},
+			"description": "Sliced tender roast beef on a roll with mushrooms, onions, peppers, provolone cheese, & au jus"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Hot and Open Faced",
+			"name": "Reuben Oh' Reuben",
+			"portion": {
+				"name": "",
+				"price": "15.00"
+			},
+			"description": "Corned beef, sauerkraut, grilled onions, Swiss cheese, & Russian dressing on grilled rye"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Hot and Open Faced",
+			"name": "The Dip",
+			"portion": {
+				"name": "",
+				"price": "14.00"
+			},
+			"description": "Thin sliced roast beef on a roll with au jus for dipping"
+		}
+
+
+		, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "From The Grille",
+			"name": "Ribeye Steak",
+			"portion": {
+				"name": "",
+				"price": "21.00"
+			},
+			"description": "12 oz. choice Black Angus, served with French fries, and choice of a cup of soup or small salad"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "From The Grille",
+			"name": "B.B.Q. Baby Back Ribs",
+			"portion": {
+				"name": "",
+				"price": "18.00"
+			},
+			"description": "Half rack of pork ribs served with French fries and a choice of a cup of soup or small salad"
+		}
+
+
+		, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Hot Sandwiches",
+			"name": "The Burger",
+			"portion": {
+				"name": "",
+				"price": "11.00"
+			},
+			"description": "Half pound lean ground beef with lettuce, tomato, and onion"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Hot Sandwiches",
+			"name": "Cheeseburger",
+			"portion": {
+				"name": "",
+				"price": "12.00"
+			},
+			"description": "Half pound lean ground beef with cheese, lettuce, tomato, and onion"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Hot Sandwiches",
+			"name": "Meister Burger",
+			"portion": {
+				"name": "Add Blackened",
+				"price": "1.25",
+				"name": "Blue cheese",
+				"price": "1.75",
+				"name": "Black & Blue",
+				"price": "2.75"
+			},
+			"description": "Half pound lean ground beef with cheese, bacon, mushrooms, lettuce, tomato, and onion"
+		}
+
+		, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Hot Sandwiches",
+			"name": "Chicken Sandwich",
+			"portion": {
+				"name": "",
+				"price": "12.00"
+			},
+			"description": "Freshly grilled chicken breast on a bun with melted provolone cheese and pineapple"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Hot Sandwiches",
+			"name": "Sausage Sandwich",
+			"portion": {
+				"name": "",
+				"price": "12.00"
+			},
+			"description": "Mild Italian sausage with marinara sauce & provolone cheese, served on a roll"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Hot Sandwiches",
+			"name": "Tuna Melt",
+			"portion": {
+				"name": "",
+				"price": "13.00"
+			},
+			"description": "Grilled tuna salad with Swiss cheese on rye"
+		}
+
+
+		, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Chef Van Trieu's Favorite",
+			"name": "Chinese Orange Chicken",
+			"portion": {
+				"name": "",
+				"price": "12.00"
+			},
+			"description": "Tender battered chicken breast with orange flavored sauce, served with Jasmine rice"
+		}
+
+
+		, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Old Favorites",
+			"name": "Tuna Salad Sandwich",
+			"portion": {
+				"name": "",
+				"price": "13.00"
+			},
+			"description": "Avocado, lettuce, tomato, Swiss cheese, mayonnaise, & your choice of bread"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Old Favorites",
+			"name": "B.L.T.",
+			"portion": {
+				"name": "",
+				"price": "13.00"
+			},
+			"description": "Bacon, lettuce, tomato, mayonnaise, and your choice of bread"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Old Favorites",
+			"name": "Veggie Vegetarian Sandwich",
+			"portion": {
+				"name": "",
+				"price": "12.50"
+			},
+			"description": "Grilled portabella mushroom, Swiss cheese, avocado, lettuce, tomato, and pesto mayo sauce served on a ciabatta bread"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Old Favorites",
+			"name": "Meatball Sandwich",
+			"portion": {
+				"name": "",
+				"price": "11.00"
+			},
+			"description": "Served with marinara sauce and melted provolone cheese on top of a French roll"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Old Favorites",
+			"name": "Pulled Pork Sandwich",
+			"portion": {
+				"name": "",
+				"price": "12.00"
+			},
+			"description": "Tender shredded pork with BBQ sauce served on a sesame bun"
+		}
+
+
+
+
+		, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Fish",
+			"name": "Salmon",
+			"portion": {
+				"name": "",
+				"price": "17.00"
+			},
+			"description": "Pan seared with garlic butter & herbs"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Fish",
+			"name": "Skillet Trout",
+			"portion": {
+				"name": "",
+				"price": "15.50"
+			},
+			"description": "Sautéed with garlic, lemon, butter, & herbs"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Fish",
+			"name": "Tilapia",
+			"portion": {
+				"name": "",
+				"price": "13.00"
+			},
+			"description": "Fresh, seared in a lemon butter caper sauce"
+		}
+
+
+		, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Pasta",
+			"name": "Fettucine Alfredo Tetrazzini",
+			"portion": {
+				"name": "",
+				"price": "15.00"
+			},
+			"description": "Spinach & egg pasta ribbons with peas, chicken, & alfredo sauce"
+		}, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Pasta",
+			"name": "Penne Primavera \"Vegetarian\"",
+			"portion": {
+				"name": "",
+				"price": "13.00"
+			},
+			"description": "Penne pasta with julienne carrots, zucchini, mushrooms, onions, red peppers, Kalamata olives, marinara sauce. & parmesan cheese"
+		}
+
+		, {
+			"category": "lunch",
+			"subcategory": "main",
+			"subcategory2": "~On the lighter side~",
+			"subcategory3": "Pasta",
+			"name": "Linguini with Mild Pork Sausage",
+			"portion": {
+				"name": "",
+				"price": "12.50"
+			},
+			"description": "Served with herbs, garlic, onions, basil, & parmesan cheese"
+		}
+
+
+
+
+	]
+}

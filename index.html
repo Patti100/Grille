@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html >
+<!--
 	    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 		<script src='http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap.min.js'></script>
 		<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'></script>
 		<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js'></script>
-	
+-->
+
+		<script src="js/index.js"></script>
+		<script type="text/javascript" src="pages/menu.js"></script>
+		<script type="text/javascript" src="js/json2.js"> </script>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -12,14 +17,70 @@
 		<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css'>
 		<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css'>
 
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="./css/style.css">
+		
+		
 
-		<script src="js/index.js"></script>
-		<!-- Bootstrap Core JavaScript -->
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/script.js"></script>
+
 			
+		<script>
+			function onclickMenuSelection(selectedOption){
+				var tmpValue = selectedOption;
+				
+				document.getElementById("welcomediv").style.visibility = "hidden";
+				document.getElementById("lunchdiv").style.visibility = "hidden";
+				document.getElementById("dinnerdiv").style.visibility = "hidden";
+				document.getElementById("drinksdiv").style.visibility = "hidden";
+				document.getElementById("gallery").style.visibility = "hidden";
+				document.getElementById("location").style.visibility = "hidden";
 
+				
+			
+				if(tmpValue==="welcome"){
+					document.getElementById("welcomediv").style.visibility = "visible";
+				}
+				else if(tmpValue==="lunch"){
+					document.getElementById("lunchdiv").style.visibility = "visible";
+				}
+				else if(tmpValue==="dinner"){
+					document.getElementById("dinnerdiv").style.visibility = "visible";
+				}
+				else if(tmpValue==="drinks"){
+					document.getElementById("drinksdiv").style.visibility = "visible";
+				}
+				else if(tmpValue==="gallery"){
+					document.getElementById("gallery").style.visibility = "visible";
+				}
+				else if(tmpValue==="location"){
+					document.getElementById("location").style.visibility = "visible";
+				}
+			
+	
+			
+			}
+			
+			var jsonData;
+			function loadJSONMenu() {
+				
+				var jsonStringObj = getJSONString();
+				var tmpValue = jsonStringObj.getjsonString();
+				//console.log(jsonData);
+				
+				var obj = JSON.parse(tmpValue);
+				
+				
+				var iii=-1;
+				
+				
+			}
+			
+			function loadScript(){
+				loadJSONMenu();
+				loadGoogleMapScript();
+			}
+			
+			window.onload = loadScript;
+		</script>
 		
 		
   <head>
@@ -28,34 +89,33 @@
 
   </head>
 
-  <body>
+	<body>
 
     
-    <nav class="navbar navbar-inverse navbar-fixed-top" id="nav" role="navigation"><!-- navbar for mobile and common -->
-        <div class="container">
-            
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Julian Grille</a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a data-scroll href="#Slide">Home</a></li>
-                    <li><a data-scroll href="#gallery">Gallery</a></li>
-                    <li><a data-scroll href="#location">Location</a></li>
-                    <li><a data-scroll href="#about">About</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav><!-- navbar end -->
-    
-    <br>
-    <br>
+		<nav class="navbar navbar-inverse navbar-fixed-top" id="nav" role="navigation">
+			<div class="container">
+				
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Julian Grille</a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a data-scroll onclick="onclickMenuSelection('welcome')" href="#myCarousel" >Home</a></li>
+						<li><a data-scroll onclick="onclickMenuSelection('gallery')" href="#myCarousel">Gallery</a></li>
+						<li><a data-scroll onclick="onclickMenuSelection('location')" href="#myCarousel">Location</a></li>
+						<li><a data-scroll onclick="onclickMenuSelection('about')" href="#about">About</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<br>
+		<br>
 
 		<header id="myCarousel" class="carousel slide"  data-ride="carousel">
 			
@@ -69,28 +129,28 @@
 		   
 			 <div class="carousel-inner" role="listbox"> <!--slides -->
 				<div class="item active">
-					<div class="fill" style='background-image:url("./images/slides/GrilleFront_1_front.jpg");'></div>
+					<div class="fill" onclick="onclickMenuSelection('welcome')" style='background-image:url("./images/slides/GrilleFront_1_front.jpg");'></div>
 					<div class="carousel-caption">
 						<h2>Welcome</h2>
 					</div>
 				</div>
 				
 				<div class="item">
-					<div class="fill" style='background-image:url("./images/slides/LunchPlaceHolder.png");'></div>
+					<div class="fill" onclick="onclickMenuSelection('lunch')" style='background-image:url("./images/slides/LunchPlaceHolder.png");'></div>
 					<div class="carousel-caption">
 						<h2>Lunch</h2>
 					</div>
 				</div>
 
 				<div class="item">
-					<div class="fill" style='background-image:url("./images/slides/DinnerPlaceHolder.png");'></div>
+					<div class="fill" onclick="onclickMenuSelection('dinner')" style='background-image:url("./images/slides/DinnerPlaceHolder.png");'></div>
 					<div class="carousel-caption">
 						<h2>Dinner</h2>
 					</div>
 				</div>
 
 				<div class="item">
-					<div class="fill" style='background-image:url("./images/slides/drinksplaceholder2.jpg");'></div>
+					<div class="fill" onclick="onclickMenuSelection('drinks')" style='background-image:url("./images/slides/drinksplaceholder2.jpg");'></div>
 					<div class="carousel-caption">
 						<h2>Drinks</h2>
 					</div>
@@ -107,222 +167,141 @@
 			</a>
 		</header> 
 
-   
-    <div class="container"> <!-- Page Content -->
+		<div id="content_container_parent" style="visibility:visible"> <!-- Page Content -->    
+			<div id="content_container" style="visibility:visible"> 
+				<div id="welcomediv" style="visibility:visible;">
+					<table width="100%">
+						<tr>
+							<td width="10%">&nbsp;</td>
+							<td width="80%">
+							<div style="z-index: 1; " class="style_SkipStroke_2 shape-with-text flowDefining">
+								<div class="text-content Normal_External_502_319" style="padding: 0px; ">
+									<div class="Normal">
+									  <p class="paragraph_style_3"><br /><b>Welcome</b></p>
+									  <p class="paragraph_style_2"><br /></p>
+									  <p style="padding-top: 0pt; " class="paragraph_style_1">Our lovely cottage restaurant was built in the 1920’s by Mr. Robinson for his wife, and remained their residence until the 1960’s. The cottage then became the residence of an artist for several years and then an antique store. In the early 80’s the cottage was transformed into a deli, and then in 1989 we proudly opened “The Julian Grille.” <br /></p>
+									  <p class="paragraph_style_2"><br /></p>
+									  <p class="paragraph_style_2">Lunch served daily from 11:00<br /></p>
+									  <p class="paragraph_style_2">Dinner served Tuesday ~Sunday from 4:30<br /></p>
+									  <p style="padding-bottom: 0pt; " class="paragraph_style_2">760-765-0173</p>
+									</div>
+								</div>
+							</div>
+							</td>
+							<td width="10%">&nbsp;</td>
+						</tr>
+					</table>
+				</div>
+			   
+				<div id="lunchdiv" style="visibility:hidden;">
+					<h1>Lunch</h1>
+				</div>
+			   
+				<div id="dinnerdiv" style="visibility:hidden;">
+					<h1>Dinner</h1>
+				</div>
+				
+				<div id="drinksdiv" style="visibility:hidden;">
+					<h1>Drinks</h1>
+				</div>
 
-        
-        <div class="row"><!-- Marketing Icons Section -->
-            <div class="col-xs-12">
-                <h1 class="page-header">
-                    Julian Grille
-                </h1>
-            </div>
-            <div class="col-md-4 col-xs-6 col-lg-3">
-                <div class="panel panel-danger">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i> Ceasar Salad</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Romaine lettuce and croutons dressed with parmesan cheese, lemon juice, olive oil, egg, Worcestershire sauce, garlic, and black pepper. It is often prepared tableside</p>
-                        <a href="#" class="btn btn-danger" id="viewbotton">View Entrees</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-xs-6 col-lg-3">
-                <div class="panel panel-danger">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-gift"></i> Cheese Burger</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p> A hamburger topped with cheese. Traditionally, the slice of cheese is placed on top of the meat patty, but the burger can include many variations in structure, ingredients, and composition</p>
-                        <a href="#" class="btn btn-danger" id="viewbotton">View Main Plates</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-xs-6 col-lg-3">
-                <div class="panel panel-danger">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i>Chocolate Mousse Tart</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Amazing desert its made with melted chololate and the touch of vanilla extract really brings out the creamy flavor. It"s the best dessert arround here</p>
-                        <a href="#" class="btn btn-danger " id="viewbotton">View Deserts</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-xs-6 col-lg-3">
-                <div class="panel panel-danger">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i> Drinks</h4>
-                    </div>
-                    <div class="panel-body" >
-                        <p>Are you looking for something to drink? Why don"t you try our new red tea with lemon and ice. Give it a try you won"t be desapointed</p>
-                        <a href="#" class="btn btn-danger" id="viewbotton">View Drinks</a>
-                    </div>
-                </div>
-            </div>
-        </div><!-- end marketing offer -->
-        
-       
-        <div class="container page" id="gallery"> <!-- Gallery Section -->
-        <div class="row" >
-            <div class="col-xs-12">
-                   <br>
-    <br>
-                <h2 class="page-header">Our delicious dishes</h2>
-            </div>
-            <div class="col-xs-6 ">
-                <a href="http://blogs.uoregon.edu/natewoodburyaad250/files/2012/10/PSD_Food_illustrations_3190_pancakes_with_butter-1wi1tz5.jpg">
-                    <img class="img-responsive img-portfolio img-hover" src="http://blogs.uoregon.edu/natewoodburyaad250/files/2012/10/PSD_Food_illustrations_3190_pancakes_with_butter-1wi1tz5.jpg">
-                </a>
-            </div>
-            <div class="col-xs-6">
-                <a href="http://www.taste.com.au/images/recipes/agt/2006/03/1921_l.jpg">
-                    <img class="img-responsive img-portfolio img-hover" src="http://www.taste.com.au/images/recipes/agt/2006/03/1921_l.jpg">
-                </a>
-            </div>
-            <div class="col-xs-5">
-                <a href="http://www.liveunitedlakecounty.org/images/content/pagebuilder/fast_food.jpg">
-                    <img class="img-responsive img-portfolio img-hover" src="http://www.liveunitedlakecounty.org/images/content/pagebuilder/fast_food.jpg">
-                </a>
-            </div>
-            <div class="col-xs-1"></div>
-            <div class="col-xs-6">
-                <a href="http://dreamatico.com/data_images/tea/tea-2.jpg">
-                    <img class="img-responsive img-portfolio img-hover" src="http://static.stylemagazin.hu/medias/41349/Isten-patikaja-elotted-hever_1215a3f76e77651f6d6eb2f1effeedad.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-xs-6">
-                <a href="http://www.lindt.com.au/fileadmin/lindt_au/Lindt_Lovers/Recipes/E.2.5.png">
-                    <img class="img-responsive img-portfolio img-hover" src="http://www.lindt.com.au/fileadmin/lindt_au/Lindt_Lovers/Recipes/E.2.5.png" alt="">
-                </a>
-            </div>
-            <!--  <div class="col-xs-1"></div>-->
-            <div class="col-xs-6">
-                <a href="http://www.bbcgoodfood.com/sites/bbcgoodfood.com/files/recipe_images/recipe-image-legacy-id--424623_10.jpg">
-                    <img class="img-responsive img-portfolio img-hover" src="http://www.bbcgoodfood.com/sites/bbcgoodfood.com/files/recipe_images/recipe-image-legacy-id--424623_10.jpg" alt="">
-                </a>
-            </div>
-        </div>
-     </div>   
+			</div>   
+			
+				
+			<div class="container page" style="visibility:hidden" id="gallery"><h1>GALLERY</h1></div>   
+	
+			<div class="container page" style="visibility:hidden" id="location">
+				<div class="col-xs-24">
+					<br>
+					<br>
+					<h2 class="page-header">Were Located</h2>
+				</div>
+				  <div class="col-xs-2">
+					  <p><b>Address:</b> 2224 Main St, Julian, CA 92036</p>
+					  <p><b>Phone:</b> (760) 765-0173</p>
+				  
+				  </div>
 
+					<div id="googleMap" style="width:800px;height:380px;"></div>
+		 
+					<!-- Include all compiled plugins (below), or include individual files as needed -->
+					<script src="http://maps.googleapis.com/maps/api/js"></script>
+					<!--<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDcYUrk80zpzS6Uh7OXx4XylhlCS157UVU"></script>-->
+					<!-- AIzaSyDcYUrk80zpzS6Uh7OXx4XylhlCS157UVU-->
+					<script>	
+						
+						var mapProp = {
+							  center:new google.maps.LatLng(33.07926 , -116.602818),
+							  zoom: 18,
+							  mapTypeId: google.maps.MapTypeId.ROADMAP
+							};
+							
+						var var_marker = new google.maps.Marker({
+								position: new google.maps.LatLng(33.07926 , -116.602818),
+								animation:google.maps.Animation.DROP,
+								map: map,
+								title:"Julian"});
+						
+						var_marker.addListener('click', function() {
+							var newWindow = window.open('https://www.google.com/maps/place/Julian+Grille/@33.079231,-116.602813,18z', 'blank');
 
-       
-       
-       
-        
-    <div class="container page" id="location"><!-- Contact Section -->
-        <div class="col-xs-2">
-              
-        </div>
-        <div class="col-xs-24">
-            <br>
-            <br>
-            <h2 class="page-header">Were Located</h2>
-        </div>
-          <div class="col-xs-2">
-              <p><b>Address:</b> 2224 Main St, Julian, CA 92036</p>
-              <p><b>Phone:</b> (760) 765-0173</p>
-  		  
-          </div>
-        <!--<div id="map-container" class="col-xs-10">-->
-		<div id="googleMap" style="width:800px;height:380px;"></div>
- 
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
-	<!--<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDcYUrk80zpzS6Uh7OXx4XylhlCS157UVU"></script>-->
-	<!-- AIzaSyDcYUrk80zpzS6Uh7OXx4XylhlCS157UVU-->
-            <script>	
-				
-				var mapProp = {
-					  center:new google.maps.LatLng(33.07926 , -116.602818),
-					  zoom: 18,
-					  mapTypeId: google.maps.MapTypeId.ROADMAP
-					};
-					
-				var var_marker = new google.maps.Marker({
-						position: new google.maps.LatLng(33.07926 , -116.602818),
-						animation:google.maps.Animation.DROP,
-						map: map,
-						title:"Julian"});
-				
-				var_marker.addListener('click', function() {
-					var newWindow = window.open('https://www.google.com/maps/place/Julian+Grille/@33.079231,-116.602813,18z', 'blank');
+						});
+						
+						
+						var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+						var_marker.setMap(map);	
+						//google.maps.event.addDomListener(window, 'load', initialize);
+						
+						function loadGoogleMapScript() {
+						  var script = document.createElement("script");
+						  script.src = "http://maps.googleapis.com/maps/api/js?callback=initialize";
+						  document.body.appendChild(script);
+						}
+						
+						
+				</script><!-- end map script -->
 
-				});
+			</div>      
+
 				
-				
-				var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
-				var_marker.setMap(map);	
-				google.maps.event.addDomListener(window, 'load', initialize);
-				
-				function loadScript() {
-				  var script = document.createElement("script");
-				  script.src = "http://maps.googleapis.com/maps/api/js?callback=initialize";
-				  document.body.appendChild(script);
-				}
-				
-				window.onload = loadScript;
-        </script><!-- end map script -->
-        </div>
-    </div>      
-                <br>
-                <br>
-                <br>
-                <br> 
-  
-        <footer id="about"><!--Footer -->
-            <div class="row">
-                <div class="col-xs-12">
-					
+		</div> 
+
+		<footer style="visibility:hidden" id="about">
+			 <div class="row">
+				<div class="col-xs-12">
+							
 					<p><b>Address:</b> 2224 Main St, Julian, CA 92036</p>
 					<p><b>Phone:</b> (760) 765-0173</p>
-					
-                </div>
-            </div>
-        </footer><!-- end footer -->
+							
+				</div>
+			</div>
+		</footer><!-- end footer -->
 
-    </div><!-- end content -->
-
-
-    <!-- jQuery -->
-    
-
-
-
-    <!-- Script to Activate the Carousel -->
-   <script>
-    $(".carousel").carousel({
-        interval: 5000
-    })
-    </script>
+		<!-- Script to Activate the Carousel -->
+	   <script>
+		$(".carousel").carousel({
+			interval: 5000
+		})
+		</script>
 
     	<script>
     	smoothScroll.init({
     		speed: 300
     	});
-	</script>
+		</script>
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-26194880-1', 'auto');
+			ga('send', 'pageview');
+
+		</script>
 
 
-	<script>
-      $(function() {
-        Grid.init();
-      });
-  	</script>
-
-
-	<script>
-  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  		ga('create', 'UA-26194880-1', 'auto');
-  		ga('send', 'pageview');
-
-	</script>
-
-
-</body>
+	</body>
 
 </html>
