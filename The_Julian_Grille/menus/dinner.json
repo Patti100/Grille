@@ -1,0 +1,379 @@
+{
+  "categories" : [
+    {
+      "category" : "dinner"
+      ,"subcategory" : "appetizers"
+      ,"name":"SHRIMP COCKTAIL"
+      ,"description": "Jumbo Prawns in a tasty cocktail sauce"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "13.50"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "appetizers"
+      ,"name":"MUSHROOMS ROCKEFELLER"
+      ,"description": "Mushrooms stuffed with spinach, bacon, paramesan, garlic & sauteed in olive oil and sherry wine.  Topped with bearnaise sauce"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "9.50"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "appetizers"
+      ,"name":"JALAPENOS RAVIOLI"
+      ,"description": "Stuffed with cream cheese, deep fried and served with marinara sauce"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "8.75"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "appetizers"
+      ,"name":"BAKED BRIE"
+      ,"description": "Served with seasonal fruit, crackers & a pecan sauce"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "13.50"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "appetizers"
+      ,"name":"PRIME TICKLER"
+      ,"description": "6 oz. of tender chuncks of prime rib and served with horseradish sauce"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "11.00"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "ON THE LIGHTER SIDE"
+      ,"name":"SOUP OF THE DAY"
+      ,"description": "inspired by the season"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "6.50"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "ON THE LIGHTER SIDE"
+      ,"name":"SWEET WALNUT SALAD"
+      ,"description": "Mixed field greens with sun dried cranberries, caramelized walnuts, carrots, red cabbage & served with apple pecan dressing"
+      ,"extras" : [
+        {"name":"Chicken", "price":"5.75"}
+        ,{"name":"Salmon", "price":"7.50"}
+        ,{"name":"Shrimp", "price":"7.50"}
+      ]
+      ,"portion": [{
+							"name": "",
+							"price": "12.00"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "ON THE LIGHTER SIDE"
+      ,"name":"CAESAR SALAD"
+      ,"description": "Hearts of romaine, shaved parmesan cheese, crispy croutons & Ceasar dressing"
+      ,"extras" : [
+        {"name":"Chicken", "price":"5.75"}
+        ,{"name":"Salmon", "price":"7.50"}
+        ,{"name":"Shrimp", "price":"7.50"}
+      ]
+      ,"portion": [{
+							"name": "",
+							"price": "10.00"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "ON THE LIGHTER SIDE"
+      ,"name":"SPINACH SALAD"
+      ,"description": "Fresh spinach with caramelized walnuts, sun dried cranberries & red onions"
+      ,"extras" : [
+        {"name":"Chicken", "price":"5.75"}
+        ,{"name":"Salmon", "price":"7.50"}
+        ,{"name":"Shrimp", "price":"7.50"}
+      ]
+      ,"portion": [{
+							"name": "",
+							"price": "10.50"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "ON THE LIGHTER SIDE"
+      ,"name":"CHICKEN JULIAN"
+      ,"description": "Flame broiled chicken breast on a bed of mixed greens with sliced apples, tomatoes, carrots, cucumbers & red cabbage.  Served with an apple pecan dressing and a bowl of fresh homemade soup of the day"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "17.00"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "HOUSE FAVORITES"
+      ,"name":"CHICKEN JERUSALEM"
+      ,"description": "Chicken breast sautéed with garlic, artichokes, basil, sherry wine & topped with a béarnaise sauce"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "21.00"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "HOUSE FAVORITES"
+      ,"name":"SWEET GEORGIA PEACH"
+      ,"description": "Chicken breast breaded with pecans, sautéed & topped with peaches"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "22.00"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "HOUSE FAVORITES"
+      ,"name":"FILET MIGNON"
+      ,"description": "Flame broiled tenderloin topped & smothered with sautéed mushrooms & Bordelaise sauce"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "33.50"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "HOUSE FAVORITES"
+      ,"name":"RIBEYE STEAK"
+      ,"description": "12 oz. choice Black Angus flame broiled"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "29.75"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "HOUSE FAVORITES"
+      ,"name":"PRIME RIB AU JUS"
+      ,"description": "Choice grade \"A\" Black Angus slow rosted"
+      ,"extras" : [
+        {"name":"Blackened", "price":"1.50"}
+        ,{"name":"Blue Cheese", "price":"2.25"}
+        ,{"name":"Black & Blue", "price":"3.50"}
+      ]
+      ,"portion": [
+        {"name": "","price": "29.00"}
+        ,{"name": "Diamond Cut","price": "31.00"}
+          ]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "HOUSE FAVORITES"
+      ,"name":"CHICKEN SPINOSA"
+      ,"description": "Chicken breast sauteed with olive oil, garlic, lemon, capers, parsley, white wine, chicken broth & cream"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "21.00"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "HOUSE FAVORITES"
+      ,"name":"B.B.Q. BABY BACK RIBS"
+      ,"description": "Slow rosted & glazed with a tangy B.B.Q. sauce"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "27.00"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "SIDES"
+      ,"name":"Dinner Salad"
+      ,"description": ""
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "6.50"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "SIDES"
+      ,"name":"Sauteed mushrooms"
+      ,"description": ""
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "4.25"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "SIDES"
+      ,"name":"Sauteed onions"
+      ,"description": ""
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "3.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "SIDES"
+      ,"name":"Sauteed spinach in olive oil & garlic"
+      ,"description": ""
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "4.95"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "SEAFOOD & FIN FISH"
+      ,"name":"SCAMPI"
+      ,"description": "Sauteed shrimp in garlic, olive oil, scallions, capers, mushrooms, lemon & white wine"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "21.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "SEAFOOD & FIN FISH"
+      ,"name":"TROUT ALMINDINE"
+      ,"description": "Sauteed with olive oil, garlic, mushrooms, scallions, broth & white wine.  Topped with toasted almonds"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "20.75"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "SEAFOOD & FIN FISH"
+      ,"name":"SKILLET TROUT"
+      ,"description": "Sauteed with garlic, olive oil, lemon, capers, herbs & mushrooms"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "20.75"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "SEAFOOD & FIN FISH"
+      ,"name":"SALMON LIVORNESE"
+      ,"description": "Sauteed in virgin olive oil , lemon, capers, herbs & mushrooms"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "21.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "SEAFOOD & FIN FISH"
+      ,"name":"SALMON"
+      ,"description": "Salmon with a light Grand Marnier soy sauce"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "22.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "PASTA"
+      ,"name":"CHICKEN FETTUCCINI"
+      ,"description": "Spinach & egg pasta ribbons with peas, checken & alfredo sauce"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "19.50"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "PASTA"
+      ,"name":"PENNE PRIMAVERA"
+      ,"description": "Tube pasta with garlic, olive oil, julienne carrots, zucchini, mushrooms, onions, red peppers, olives, basil, white wine, marinara sauce & parmesan cheese"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "18.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "PASTA"
+      ,"name":"LINGUINE EL GAMBERI"
+      ,"description": "Pasta with sauteed prawns in olive oil, garlic, white wine, parsley, chilies & tomatoes in a lobster broth"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "21.00"
+            }]
+      ,"image" : ""
+    }
+
+  ]
+  ,"subcategory_descriptions":[
+    {
+      "name" : "HOUSE FAVORITES"
+      ,"description":"served with seasonal veggies and chefs potatoes or rice"
+    }
+    ,{
+        "name" : "SEAFOOD & FIN FISH"
+        ,"description":"served with seasonal veggies and chefs potatoes or rice"
+    }
+  ]
+}

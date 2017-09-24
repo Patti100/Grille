@@ -1,0 +1,33 @@
+{
+  "name": "grilleserver",
+  "version": "1.0.0",
+  "description": "grilleserver",
+  "preferGlobal": true,
+  "bin": {
+    "IperfClientHTTP": "grilleserver.js"
+  },
+  "main": "grilleserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1",
+    "start": "npm install && node grilleserver.js"
+  },
+  "repository": "https://github.com/Patti100/Grille",
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Howard Rittberg <howardr@trackuanywhere.com>",
+  "license": "UNLICENSED",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "body-parser": "*",
+    "ex-indexof": "^1.0.0",
+    "express": "*",
+    "jwt-decode": "^2.1.0",
+    "request": "^2.81.0",
+    "util": "*",
+    "dateformat": "*"
+  },
+  "devDependencies": {
+    "jshint": "*"
+  }
+}

@@ -1,0 +1,513 @@
+{
+  "categories" : [
+    {
+      "category" : "lunch"
+      ,"subcategory" : "appetizers"
+      ,"name":"SHRIMP COCKTAIL"
+      ,"description": "Jumbo Prawns in a tasty cocktail sauce"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "13.50"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "appetizers"
+      ,"name":"PRIME TICKLER"
+      ,"description": "6 oz. of tender chuncks of prime rib and served with horseradish sauce"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "11.00"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "appetizers"
+      ,"name":"BAKED BRIE"
+      ,"description": "Served with seasonal fruit, crackers & a pecan sauce"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "13.50"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "appetizers"
+      ,"name":"QUESADILLA"
+      ,"description": "Rosted vegetables, mushrooms, peppers, onions, provolone & chedder cheese on a chipotle tortilla with salsa, avacado & sour cream"
+      ,"extras" : [{"name":"Beef or Chicken", "price":"2.00"}]
+      ,"portion": [{
+              "name": "",
+              "price": "11.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "LITE LUNCH"
+      ,"name":"SOUP & SALAD"
+      ,"description": "A bowl of homemade soup with a mixed garden salad"
+      ,"extras" : []
+      ,"portion": [
+        {
+							"name": "",
+							"price": "11.00"
+				},
+        {
+              "name": "Upgrade to Sweet Walnet Salad",
+              "price": "13.00"
+        }
+          ]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "LITE LUNCH"
+      ,"name":"HALF SANDWICH With SOUP or SALAD"
+      ,"description": "Your choice of rost beef & chedder, ham & chedder, tuna salad & swiss or turkey & provolone.  Your choice of bread"
+      ,"extras" : []
+      ,"portion": [
+        {
+              "name": "",
+              "price": "11.50"
+        }
+        ,{
+              "name": "MAKE IT A WHOLE SANDWICH",
+              "price": "14.00"
+        }
+      ]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "ON THE LIGHTER SIDE"
+      ,"name":"SWEET WALNUT SALAD"
+      ,"description": "Mixed field greens with sun dried cranberries, caramelized walnuts, carrots, red cabbage & served with apple pecan dressing"
+      ,"extras" : [
+        {"name":"Chicken", "price":"5.00"}
+        ,{"name":"Salmon", "price":"5.00"}
+        ,{"name":"Shrimp", "price":"5.00"}
+      ]
+      ,"portion": [{
+              "name": "",
+              "price": "12.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "ON THE LIGHTER SIDE"
+      ,"name":"CAESAR SALAD"
+      ,"description": "Hearts of romaine, shaved parmesan cheese, crispy croutons & Ceasar dressing"
+      ,"extras" : [
+        {"name":"Chicken", "price":"5.00"}
+        ,{"name":"Salmon", "price":"5.00"}
+        ,{"name":"Shrimp", "price":"5.00"}
+      ]
+      ,"portion": [{
+              "name": "",
+              "price": "10.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "ON THE LIGHTER SIDE"
+      ,"name":"SPINACH SALAD"
+      ,"description": "Fresh spinach with caramelized walnuts, sun dried cranberries & red onions. Served with your choice of dressing"
+      ,"extras" : [
+        {"name":"Chicken", "price":"5.00"}
+        ,{"name":"Salmon", "price":"5.00"}
+        ,{"name":"Shrimp", "price":"5.00"}
+      ]
+      ,"portion": [{
+              "name": "",
+              "price": "10.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "ON THE LIGHTER SIDE"
+      ,"name":"CHICKEN JULIAN SALAD"
+      ,"description": "Flame broiled chicken breast on a bed of field greens with sliced apples, tomatoes, carrots, cucumbers & red cabbage. Served with your choice of dressing"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "16.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "ON THE LIGHTER SIDE"
+      ,"name":"SHRIMP SALAD"
+      ,"description": "Prawns on a flat grill with tomatoes, olives, carrots, red cabbage & red peppers over a bed of field greens. Served with your choice of dressing"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "15.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "ON THE LIGHTER SIDE"
+      ,"name":"SALMON SALAD"
+      ,"description": "Salmon over a bed of field greens with olvies, roasted peppers, tomatoes, red onions, red cabbage, carrots & cucumbers. Served with your choice of dressing"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "16.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "ON THE LIGHTER SIDE"
+      ,"name":"TUNA SALAD"
+      ,"description": "Field greens, avacado, tomatoes, cucumbers, carrots and red cabbage topped with tuna Salads. Served with your choice of dressing"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "14.50"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "HOT AND OPEN FACED"
+      ,"name":"THE WRANGLER"
+      ,"description": "Sliced tender roast beef on a roll with mushrooms, onions, peppers, provolone cheese & au jus"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "15.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "HOT AND OPEN FACED"
+      ,"name":"RUBEN OH' RUBEN"
+      ,"description": "Corned beef, sauerkraut, grilled onions, swiss cheese & Russian dression on grilled rye"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "15.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "HOT AND OPEN FACED"
+      ,"name":"THE DIP"
+      ,"description": "This sliced roast beef on a roll with au jus for dipping"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "14.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "FROM THE GRILLE"
+      ,"name":"RIBEYE STEAK"
+      ,"description": "12 oz. choice Black Angus steak"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "21.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "FROM THE GRILLE"
+      ,"name":"B.B.Q. BABY BACK RIBS"
+      ,"description": "Half rack of pork ribs"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "18.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "FROM THE GRILLE"
+      ,"name":"THE BURGER"
+      ,"description": "Half pound lean ground beef with lettuce, tomato & onion"
+      ,"extras" : []
+      ,"portion": [
+        {
+              "name": "",
+              "price": "11.00"
+        }
+       ,{
+              "name": "CHEESEBURGER",
+              "price": "12.00"
+        }
+        ,{
+               "name": "MEISTER BURGER with mushrooms, bacon and chedder",
+               "price": "14.00"
+         }
+      ]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "FROM THE GRILLE"
+      ,"name":"CHICKEN SANDWICH"
+      ,"description": "Freshly grilled chicken breast on a bun with melted provolone cheese and pineapple"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "12.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "FROM THE GRILLE"
+      ,"name":"SAUSAGE SANDWICH"
+      ,"description": "Mild Italian sausage with marinera sauce & provolone cheese served on a roll"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "12.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "CHEF VAN TRIEU'S FAVORITE"
+      ,"name":"CHINESE ORANGE CHICKEN"
+      ,"description": "Tender batterd checken breast with orange flavored sauce.  Served with Jasmine rice"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "12.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "OLD FAVORITES"
+      ,"name":"TUNA SALAD SANDWICH"
+      ,"description": "Avacado, lettuce, tomato, Swiss cheese, mayonnaise & your choice of bread"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "13.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "OLD FAVORITES"
+      ,"name":"B.L.T. CLASSIC"
+      ,"description": "Bacon, lettuce, tomato, mayonnaise & your choice of bread"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "13.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "OLD FAVORITES"
+      ,"name":"VEGGIE SANDWICH"
+      ,"description": "Grilled portabella mushrooms, Swiss cheese, avocado, lettuce, tomato, and pesto mayo sauce served on ciabatta bread"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "12.50"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "OLD FAVORITES"
+      ,"name":"MEATBALL SANDWICH"
+      ,"description": "Served with marinara sauce and melted provolone cheese on top of a French roll"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "11.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "OLD FAVORITES"
+      ,"name":"PULLED PORK SANDWICH"
+      ,"description": "Tender shredded pork with BBQ sauce served on a seasame bun"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "12.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "FISH"
+      ,"name":"SALMON"
+      ,"description": "Pan seared with garlic butter & herbs"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "17.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "FISH"
+      ,"name":"SKILLET TROUT"
+      ,"description": "Sauteed with garlic, lemon, butter & herbs"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "15.50"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "FISH"
+      ,"name":"TALAPIA"
+      ,"description": "Fresh, seared in a lemon butter caper sauce"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "13.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "PASTA"
+      ,"name":"FETTUCINA ALFREDO TETTRAZINI"
+      ,"description": "Spinach & egg pasta ribbons with peas, chicken & alfredo sauce"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "15.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "PASTA"
+      ,"name":"PENNE PRIMAVERA"
+      ,"description": "Tube pasta with garlic, olive oil, julienne carrots, zucchini, mushrooms, onions, red peppers, olives, basil, white wine, marinara sauce  & parmesan cheese"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "13.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "PASTA"
+      ,"name":"LINGUINE WITH MILD PORK SAUSAGE"
+      ,"description": "Served with herbs, garlic, onions, basil and parmesan cheese"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "12.50"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "SIDES"
+      ,"name":"Fruit of the season"
+      ,"description": ""
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "4.75"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "SIDES"
+      ,"name":"French fries"
+      ,"description": ""
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "4.25"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "SIDES"
+      ,"name":"Potato Salad"
+      ,"description": ""
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "4.25"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "SIDES"
+      ,"name":"Sauteed spinach in olive oile & garlic"
+      ,"description": ""
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "5.50"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "lunch"
+      ,"subcategory" : "SIDES"
+      ,"name":"House Salad"
+      ,"description": ""
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "6.50"
+            }]
+      ,"image" : ""
+    }
+  ]
+  ,"subcategory_descriptions":[
+    {
+      "name" : "HOT AND OPEN FACED"
+      ,"description":"Served with your choice of a small salad, cup of soup, fries, or potato salad"
+    }
+    ,{
+      "name" : "FROM THE GRILLE"
+      ,"description":"Served with French fries and choice of a small salad or cup of soup"
+    }
+    ,{
+      "name" : "OLD FAVORITES"
+      ,"description":"Served with your choice of a small house salad, cup of soup, fries or potato salad"
+    }
+    ,{
+      "name" : "PASTA"
+      ,"description":"Served with a french baguette"
+    }
+  ]
+
+}

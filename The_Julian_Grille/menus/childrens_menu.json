@@ -1,0 +1,72 @@
+{
+  "categories" : [
+    {
+      "category" : "dinner"
+      ,"subcategory" : "CHILDRENS MENU"
+      ,"name":"FRIED CHICKEN FINGERS"
+      ,"description": "Served with steak fries or fruit of the season"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "7.50"
+            }
+
+    ]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "CHILDRENS MENU"
+      ,"name":"GRILLED CHEESE SANDWICH"
+      ,"description": "Served with steak fries or fruit of the season"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "6.50"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "CHILDRENS MENU"
+      ,"name":"CHEESE BURGER"
+      ,"description": "Served with steak fries or fruit of the season"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "8.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "CHILDRENS MENU"
+      ,"name":"HOT DOG or CORN DOG"
+      ,"description": "Served with steak fries or fruit of the season"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "6.00"
+            }]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "dinner"
+      ,"subcategory" : "CHILDRENS MENU"
+      ,"name":"SPAGHETTI & MEATBALL"
+      ,"description": "Served with steak fries or fruit of the season"
+      ,"extras" : []
+      ,"portion": [{
+              "name": "",
+              "price": "7.50"
+            }]
+      ,"image" : ""
+    }
+  ]
+  ,"subcategory_descriptions":[
+    {
+      "name" : "CHILDRENS MENU"
+      ,"description":"for our guests under 12"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "categories" : [
+    {
+      "category" : "beverages"
+      ,"subcategory" : "BEVERAGES"
+      ,"name":"SODA"
+      ,"description": "Coke, Diet Coke, Sprite, Root Beer, Fanta Orange, Club Soda & Lemonade"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "3.00"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "beverages"
+      ,"subcategory" : "BEVERAGES"
+      ,"name":"TEA"
+      ,"description": "Iced or Hot tea"
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "3.00"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "beverages"
+      ,"subcategory" : "BEVERAGES"
+      ,"name":"MILK"
+      ,"description": ""
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "3.00"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "beverages"
+      ,"subcategory" : "BEVERAGES"
+      ,"name":"CHOCOLATE MILK or HOT CHOCOLATE"
+      ,"description": ""
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "4.50"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "beverages"
+      ,"subcategory" : "BEVERAGES"
+      ,"name":"ORANGE OR CRANBERRY JUICE"
+      ,"description": ""
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "3.75"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "beverages"
+      ,"subcategory" : "BEVERAGES"
+      ,"name":"APPLE CIDER HOT OR CHILLED"
+      ,"description": ""
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "5.50"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "beverages"
+      ,"subcategory" : "BEVERAGES"
+      ,"name":"PERRIER"
+      ,"description": ""
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "3.75"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "beverages"
+      ,"subcategory" : "BEVERAGES"
+      ,"name":"GINGER BEER (non-alc) 12oz. btl"
+      ,"description": ""
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "4.50"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "beverages"
+      ,"subcategory" : "BEVERAGES"
+      ,"name":"PANNA NATURAL SPRINGS WATER"
+      ,"description": ""
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "3.75"
+						}]
+      ,"image" : ""
+    }
+    ,{
+      "category" : "beverages"
+      ,"subcategory" : "BEVERAGES"
+      ,"name":"COFFEE REGULAR OR DECAFFEINATED ICED or HOT"
+      ,"description": ""
+      ,"extras" : []
+      ,"portion": [{
+							"name": "",
+							"price": "3.00"
+						}]
+      ,"image" : ""
+    }
+  ]
+}
